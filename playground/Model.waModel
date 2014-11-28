@@ -1,2 +1,1 @@
-{    "toJSON": true,    "dbInfo": [{        "name": "Model",        "uuid": ""    }],    "extraProperties": {        "version": "1",        "classes": {        },        "model": {            "scriptMode": "manual"
-        }    },    "dataClasses": []}
+﻿{	"toJSON": true,	"extraProperties": {		"version": "2",		"classes": {			"Employee": {				"panel": {					"isOpen": "true",					"position": {						"X": 25,						"Y": 20					}				},				"panelColor": "#B8CCE4"			},			"Company": {				"panel": {					"isOpen": "true",					"position": {						"X": 245,						"Y": 20					}				},				"panelColor": "#548DD4"			}		},		"model": {			"scriptMode": "manual",			"workspaceLeft": 0,			"workspaceTop": 0		}	},	"dataClasses": []}
