@@ -7,3 +7,6 @@
 [submodule "playground/Widgets/waDropzone"]
 	path = playground/Widgets/waDropzone
 	url = https://stefaneugster@github.com/stefaneugster/waDropzone.git
+[submodule "playground/Themes/flatui"]
+	path = playground/Themes/flatui
+	url = https://stefaneugster@github.com/stefaneugster/flatui.git
