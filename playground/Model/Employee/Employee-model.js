@@ -5,8 +5,9 @@ model.Employee.ID = new Attribute('storage', 'string', {
 	autosequence: true,
 	unique: true
 });
-model.Employee.familyName = new Attribute('storage', 'string');
+model.Employee.lastName = new Attribute('storage', 'string');
 model.Employee.firstName = new Attribute('storage', 'string');
+model.Employee.comment = new Attribute('storage', 'string');
 model.Employee.dateOfBirth = new Attribute('storage', 'date', {
 	simpleDate: false
 });
