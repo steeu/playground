@@ -1,0 +1,9 @@
+[submodule "playground/Widgets/CKEditor"]
+	path = playground/Widgets/CKEditor
+	url = https://stefaneugster@github.com/stefaneugster/CKEditor.git
+[submodule "playground/Widgets/JQDateTime"]
+	path = playground/Widgets/JQDateTime
+	url = https://stefaneugster@github.com/stefaneugster/JQDateTime.git
+[submodule "playground/Widgets/waDropzone"]
+	path = playground/Widgets/waDropzone
+	url = https://stefaneugster@github.com/stefaneugster/waDropzone.git
