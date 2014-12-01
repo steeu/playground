@@ -4,13 +4,13 @@
  */
 
 
-// Load plugin from external directories
+// Load plugins from external directories
 CKEDITOR.plugins.addExternal( 'widget', '/ckeditor/plugins/widget/', 'plugin.js' );
 CKEDITOR.plugins.addExternal( 'lineutils', '/ckeditor/plugins/lineutils/', 'plugin.js' );
 CKEDITOR.plugins.addExternal( 'accordion', '/ckeditor/plugins/accordion/', 'plugin.js' );
 CKEDITOR.config.extraPlugins = 'widget,lineutils,accordion';
 
-// Load skin from external directories
+// Load skin from external directory
 CKEDITOR.config.skin = 'bootstrapck,/ckeditor/bootstrapck/'
 
 CKEDITOR.editorConfig = function( config ) {
