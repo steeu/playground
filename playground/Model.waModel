@@ -22,6 +22,16 @@
 						"Y": 32
 					}
 				}
+			},
+			"Revision": {
+				"panelColor": "#D7E3BC",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 630,
+						"Y": 34
+					}
+				}
 			}
 		},
 		"model": {
@@ -30,6 +40,5 @@
 			"workspaceTop": 0
 		}
 	},
-	"dataClasses": [],
-	"type": []
+	"dataClasses": []
 }

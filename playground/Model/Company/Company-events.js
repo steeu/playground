@@ -41,3 +41,11 @@ model.Company.fullAddress.onQuery = function(operator, value) {
 	}
 	return result;
 };
+
+model.Company.events.save = function() {
+	try {
+		ds.Revision.checkEntity(this);
+	} catch (e) {
+		return e;
+	}
+};

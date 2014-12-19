@@ -1,4 +1,4 @@
-model.Applicant.age.onGet = function() {
+model.Employee.age.onGet = function() {
 	if (this.dateOfBirth === null) {
 		return 0;
 	}
@@ -10,10 +10,18 @@ model.Applicant.age.onGet = function() {
 	return age;
 };
 
-model.Applicant.age.onSort = function(value) {
+model.Employee.age.onSort = function(value) {
 	if (value) {
 		return 'dateOfBirth desc';
 	} else {
 		return 'dateOfBirth';
+	}
+};
+
+model.Employee.events.save = function() {
+	try {
+		ds.Revision.checkEntity(this);
+	} catch (e) {
+		return e;
 	}
 };
