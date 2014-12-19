@@ -4,7 +4,7 @@
  */
  
 model.Revision = new DataClass('Revisions');
-model.Revision.ID = new Attribute('storage', 'string', {
+model.Revision.ID = new Attribute('storage', 'long', {
 	primKey: true,
 	autosequence: true,
 	unique: true
