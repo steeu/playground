@@ -12,6 +12,6 @@ model.Revision.ID = new Attribute('storage', 'long', {
 model.Revision.className = new Attribute('storage', 'string');
 model.Revision.entityKey = new Attribute('storage', 'string');
 model.Revision.changes = new Attribute('storage', 'string');
-model.Employee.createDate = new Attribute('storage', 'date', {
+model.Revision.createDate = new Attribute('storage', 'date', {
 	simpleDate: false
 });
