@@ -27,5 +27,5 @@ sessionID.json
 # Wakanda Remote Model Cache
 *.waRemoteModel
 # project
-*/DataFoler
+*/DataFolder
 
