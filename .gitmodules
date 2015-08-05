@@ -10,3 +10,6 @@
 [submodule "playground/Themes/flatui"]
 	path = playground/Themes/flatui
 	url = https://stefaneugster@github.com/stefaneugster/flatui.git
+[submodule "playground/HttpRequestHandler"]
+	path = playground/HttpRequestHandler
+	url = https://github.com/stefaneugster/wak-httpRequestHandler.git
