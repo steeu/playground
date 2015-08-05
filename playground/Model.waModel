@@ -1,4 +1,4 @@
-﻿{
+{
 	"toJSON": true,
 	"extraProperties": {
 		"version": "2",
@@ -18,8 +18,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 353,
-						"Y": 32
+						"X": 370,
+						"Y": 41
 					}
 				}
 			},
@@ -28,8 +28,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 630,
-						"Y": 34
+						"X": 645,
+						"Y": 44
 					}
 				}
 			}
