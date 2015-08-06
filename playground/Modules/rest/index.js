@@ -3,7 +3,7 @@
 var curlModule = require('curl');
 
 /**
- * send email messages
+ * restful services
  *
  * @return {Object} result
  */
@@ -25,7 +25,7 @@ var REST = function(options) {
 
 
 /**
- * connect to mailserver
+ * connect to JSON RESTful service
  *
  * @return {Object} result
  */
