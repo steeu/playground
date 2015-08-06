@@ -1,6 +1,10 @@
 
-// load depending modules
+/**
+ * load dependencies (modules)
+ */
+ 
 var curlModule = require('curl');
+
 
 /**
  * restful services
